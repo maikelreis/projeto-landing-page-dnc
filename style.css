@@ -1,0 +1,166 @@
+*{
+    margin: 0px ;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#logo{
+    margin-left: 50px; 
+    margin-top: 50px;
+}
+
+#menusuperior{
+    
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: azure;
+}
+
+#title-upmenu{
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#text-upmenu{
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menuinformacao{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding: 1px
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#videoinstitucional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px;
+    margin-left: 150px;
+}
+
+#textovideo{
+    margin: 50px;
+}
+
+
+#titulovideo{
+    color: #247BA0;
+    width: 496px;
+    height: 96;
+    top: 827;
+    left: 772;
+    margin-bottom: 25px;
+}
+
+#subtitulovideo{
+    color: #383838;
+    top: 810px;
+    left: 174px;
+}
+
+
+#Carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 32px;
+}
+
+#div-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#card-Samanta{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-10px) ;
+    transition-duration: 0.7s;
+
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloformulario{
+    text-align: center;
+    font-size: 32px;
+    color: #383838;
+    margin: 25px;
+}
+
+.input-formulario{
+    width: 413px;
+    height: 53px;
+    margin-top: 50px;
+    background: #EAECE5;
+    border-radius: 8px;
+    color: #383838;
+    padding-left: 5px;
+    border: 0px;
+
+
+
+}
+
+#botao{
+    background-color: #247BA0;
+    color: #EAECE5;
+    width: 335px;
+    height: 53px;
+    margin-top: 50px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#botao:hover{
+    background-color: #45afda;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #021821;
+   
+}
